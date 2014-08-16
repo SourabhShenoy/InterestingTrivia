@@ -1,0 +1,377 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+	font-family: serif;
+	background: #bbb url(../images/page_background.jpg) repeat;
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+	margin: 1ex 1em;
+}
+
+#outerContainer {
+	width:851px;
+	margin:0 auto;
+	
+}
+div#homeBanner {
+	background: #fff url(../images/banner.jpg) no-repeat;
+}
+div#aboutBanner {
+	background: #fff url(../images/about_banner.jpg) no-repeat;
+}
+div#interestingBanner {
+	background: #fff url(../images/facts_banner.jpg) no-repeat;
+}
+div#planetBanner {
+	background: #fff url(../images/bizarre_banner.jpg) no-repeat;
+}
+div#shockingBanner {
+	background: #fff url(../images/stories_banner.jpg) no-repeat;
+}
+header {
+	height:265px;
+}
+
+#midBanner label {
+color:#f00;
+top:67px;
+left:38px;
+}
+
+.errimg {
+top:63px;
+left:10px;
+}
+
+section#content {
+    background-color: #fff;
+    padding: 5px;
+}
+
+#outerContainer a:link, #outerContainer a:visited {
+    text-decoration: none;
+    color: #b36b00;
+}
+
+#outerContainer a:hover, #outerContainer a:active {
+    color: #566440;
+    border-bottom: none;
+}
+
+#midBanner {
+	position:relative;
+}
+/*
+#midBanner img {
+	position:absolute;
+	z-index:0;
+}
+ */ 
+ #midBanner #search2{
+position:relative;
+z-index:2;
+left:610px;
+bottom:75px;
+ }
+ #midBanner #tfq{
+ position:absolute;
+ height: 23px;
+ border-radius:10px;
+ padding-left:5px;
+ z-index:3;
+ 
+ }
+
+#midBanner #searchbtn1 {
+position:absolute;
+z-index:3;
+margin-left:168px;
+
+}
+
+#midBanner #ab
+{
+position:absolute;
+left:7px;
+}
+
+#midBanner #label1
+{
+position:absolute;
+}
+#midBanner #search1{
+z-index:4;
+}
+ 
+ /*
+#midBanner #searchtbox {
+	position:absolute;
+	z-index:1;
+	left:610px;
+	bottom:45px;
+}
+*/
+
+/*
+#midBanner #errimg1 {
+	z-index:4; 
+	position:absolute;
+}
+
+#midBanner label {
+	z-index:5;
+	position:absolute;
+} */
+
+/* Contact Button */
+
+#outerContainer #contactButton {
+    position: absolute;
+    left: 850px;
+    top: 0px;
+}
+
+#contactButton a:link, #contactButton a:visited{
+    height: 29px;
+    width: 86px;
+    display: block;
+    text-indent: -1000em;
+    background: url(../images/contact_icon_dual.gif) no-repeat left top;
+    border: none;
+}
+
+#contactButton a:hover, #contactButton a:active{
+    background-position: left bottom;
+}
+
+/* Main Menu */
+
+header#header nav#mainMenu {
+    position: absolute;
+    left: 340px;
+    top: 240px;
+}
+
+nav#mainMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navUl ul {
+	position:absolute;
+	left:-999em;
+	top:2em;
+	list-style:none;
+}
+#navUl li:hover ul {
+	z-index:3;
+	left:0;
+	top:auto;
+}
+
+#navUl a{
+	display:block;
+} 
+
+
+#mainMenu li {
+    position:relative;
+	float: left;
+    margin: 0;
+    padding:0;
+}
+
+#mainMenu li a:link, #mainMenu li a:visited {
+    font-family: "Trebuchet MS", sans-serif;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px 0 30px;
+    margin-right: 5px;
+	line-height: 25px;
+    background: url(../images/nav_rollover.jpg) no-repeat left bottom;
+    border: none;
+}
+
+#mainMenu li a:hover, #mainMenu li a:active {
+    color: #f8b449;
+    background-position: left top;
+}
+
+#mainMenu ul li a.current {
+    margin-top: -5px;
+    height: 30px;
+    background: url(../images/nav_current.jpg) no-repeat;
+    color: #aaa;
+    line-height: 25px;
+}
+
+nav ul li a.current:hover {
+    cursor: default;
+}
+
+/* ====- main content ===== */
+
+#content #mainContent {
+    float: left;
+    width: 430px;
+    margin: 0 0;
+    padding: 0 15px;
+}
+
+#mainContent p {
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    color: #000;
+    margin: 1ex 0;
+	text-indent: 20px;
+}
+
+#mainContent h1, #mainContent h2, #mainContent h3, #mainContent h4 {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#mainContent h1 {
+	
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #1b9d95;
+    margin: 0 0 .4ex 0;
+}
+
+#mainContent h2 {
+    font-size: 1.2em;
+    color: #3C3809;
+    margin: .4ex 2ex;
+}
+
+#mainContent h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #666;
+    margin: 1ex 0 -.2ex 0;
+}
+
+#mainContent ul {
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    margin: 0 0 1.4ex 0;
+}
+#mainContent img.photo {
+    padding: 5px;
+	margin-right:25px;
+	margin-bottom:10px;
+	margin-top:5px;
+    border: 1px solid #999;
+}
+#mainContent img.photo:hover {
+border: 1px solid #b36b00;
+}
+
+/* main content left menu */
+
+#mainContent p.leftMenu {
+    font-family: "Trebuchet MS", sans-serif;
+    margin-top: 0;
+}
+
+#mainContent p.leftMenu a {
+    color: #566440;
+}
+
+#mainContent p.leftMenu a:hover {
+    color: #b36b00;
+    border: none;
+}
+
+#mainContent hr{
+margin-top:10px;
+}
+
+#content #sideBar {
+    float: right;
+    width: 265px;
+    padding: 0 10px;
+    margin: 0;
+    border-left: solid #aaa 1px;
+}
+
+#sideBar p {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #666;
+    margin: 0 0 3ex 0;
+}
+
+#sideBar h3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #1b9d95;
+    text-align: left;
+    margin: 1ex 0 .5ex 0;
+}
+
+#sideBar img {
+    margin: 0 25px;
+}
+
+#sideBar img.photo {
+    padding: 5px;
+    border: 1px solid #999;
+}
+#sideBar img.photo:hover{
+border: 1px solid #b36b00;
+}
+
+#sideBar ol {
+    margin: .5em 0 1.5em 0 ;
+}
+
+#sideBar li {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 0.8em;
+    color: #666;
+    margin: .2em .5em;
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    background: transparent;
+    margin: 0 auto;
+    padding: 5px;
+	width: 843px;
+	background: #333;
+}
+
+footer p {
+	
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .75em;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer a {
+    color: #1b9d95;
+    text-decoration: none;
+}
+#sideBar
+{
+padding-top:55px;
+float:right;
+}
+/* miscellaneous styles */
+
+.clear { clear: both }
